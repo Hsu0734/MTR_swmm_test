@@ -1,0 +1,85 @@
+
+  OWA STORM WATER MANAGEMENT MODEL - VERSION v5.2.1 (OWA 2023-03-28)
+  ------------------------------------------------------------
+
+  Olds College water quality analysis 
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 2
+  Number of subcatchments ... 9
+  Number of nodes ........... 9
+  Number of links ........... 8
+  Number of pollutants ...... 4
+  Number of land uses ....... 2
+  
+  
+  *****************
+  Pollutant Summary
+  *****************
+                               Ppt.      GW         Kdecay
+  Name                 Units   Concen.   Concen.    1/days    CoPollutant
+  -----------------------------------------------------------------------
+  TSS_150               MG/L      0.00      0.00      0.00
+  TSS0_20               MG/L      0.00      0.00      0.00
+  TSS20_50              MG/L      0.00      0.00      0.00
+  TSS50_150             MG/L      0.00      0.00      0.00
+  
+  
+  ***************
+  Landuse Summary
+  ***************
+                         Sweeping   Maximum      Last
+  Name                   Interval   Removal     Swept
+  ---------------------------------------------------
+  Pavements                  0.00      0.00      0.00
+  Roof                       0.00      0.00      0.00
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  3031093              3031093                        INTENSITY   60 min.
+  Calgary_24h-100y     Calgary_24h-100y               INTENSITY    5 min.
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  S1A                        4.00     24.70    100.00    0.5000 3031093              S1B                 
+  S1B                        0.03     15.95      0.00    1.5000 3031093              S7                  
+  S2                         0.08     12.91    100.00    0.5000 3031093              S7                  
+  S3                         0.11     16.33     80.00    0.5000 3031093              J2                  
+  S4                         0.04     15.45    100.00    2.0000 3031093              S4A                 
+  S4A                        0.01     10.86    100.00    2.0000 3031093              J3                  
+  S5                         0.06     21.36    100.00    2.0000 3031093              OG                  
+  S6                         0.34     33.99      0.00    0.5000 3031093              ParkOF              
+  S7                         0.06     23.31      0.00    1.5000 3031093              J5                  
+
+
+  *******************
+  LID Control Summary
+  *******************
+                                   No. of        Unit        Unit      % Area    % Imperv      % Perv
+  Subcatchment     LID Control      Units        Area       Width     Covered     Treated     Treated
+  ---------------------------------------------------------------------------------------------------
+  S3               RainwaterHarvesting     1       15.00        0.00        1.39      100.00        0.00
+  S4A              PermeablePavement     1      115.30       20.00      100.00      100.00        0.00
+  S7               BioretentionArea     1      607.60        0.00      100.00        0.00        0.00
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  J1                   JUNCTION              0.31      2.00       0.0
+  J2                   JUNCTION              3.43      1.00       0.0
+  J3                   JUNCTION        
